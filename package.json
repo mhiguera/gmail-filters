@@ -1,0 +1,30 @@
+{
+  "name": "gmail-filters",
+  "version": "0.0.1",
+  "description": "Generates Gmail Filters XML from JSON rules",
+  "main": "index.js",
+  "dependencies": {
+    "xml2js": "^0.4.23",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhiguera/gmail-filters.git"
+  },
+  "keywords": [
+    "gmail",
+    "filters",
+    "xml",
+    "json"
+  ],
+  "author": "Manuel de la Higuera",
+  "license": "MIT",
+  "bin": {
+    "gmail-filters": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mhiguera/gmail-filters/issues"
+  },
+  "homepage": "https://github.com/mhiguera/gmail-filters#readme"
+}
